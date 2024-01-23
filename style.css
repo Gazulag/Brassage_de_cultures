@@ -59,7 +59,6 @@ ul{
 
 body {
     background-image: url('Fond_biere.jpeg');
-    background-repeat: repeat;
     background-size: cover;
     min-height: 100vh;
     
