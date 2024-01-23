@@ -1,0 +1,51 @@
+h1
+{
+    color: rgb(49, 25, 184);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+
+.navbar {
+    background-color: rgba(0, 23, 230, 0.733);
+    font-size: 30px;   
+    padding-right: 20px;  
+}
+
+@media (min-width:768px){
+    .navbar{
+        font-size: 25px;
+    }
+}
+
+.navbar-nav{
+    --bs-nav-link-color: rgb(255, 255, 0);
+}
+
+
+.logo{
+    margin-left: 20px;
+}
+
+ul{
+    margin-right: 20px;
+}
+
+body {
+    background-image: url('/Fond_biere.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    background-color: rgba(255, 253, 242, 0.8);
+    border-radius: 10px;
+    font-size: 25px;
+}
