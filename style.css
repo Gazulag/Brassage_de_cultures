@@ -17,6 +17,7 @@ h1
     .navbar{
         font-size: 25px;
     }
+   
 }
 
 .navbar-nav{
@@ -48,4 +49,16 @@ html, body{
     background-color: rgba(255, 253, 242, 0.8);
     border-radius: 10px;
     font-size: 25px;
+}
+
+.event-image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.event-container{
+    display: flex;
+    align-items: center;
 }
